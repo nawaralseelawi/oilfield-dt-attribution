@@ -1,0 +1,16 @@
+18:11:45 data generated
+18:11:55 twins fitted
+18:13:22 features built (53600, 494)
+18:14:17 proposed: macroF1(manifest)=0.819 tau=0.666 [55s]
+18:14:55 arr_only: macroF1(manifest)=0.828 tau=0.666 [38s]
+18:15:31 dd_only: macroF1(manifest)=0.768 tau=0.744 [36s]
+18:15:53 raw_only: macroF1(manifest)=0.562 tau=0.895 [22s]
+18:16:31 no_cov: macroF1(manifest)=0.800 tau=0.681 [39s]
+18:17:20 no_topo: macroF1(manifest)=0.811 tau=0.626 [48s]
+18:18:08 no_replay: macroF1(manifest)=0.810 tau=0.594 [49s]
+18:18:56 no_inst: macroF1(manifest)=0.802 tau=0.641 [48s]
+18:19:10 baseline generic: tau=0.659
+18:19:11 baseline generic_esc: tau=0.659
+18:19:22 baseline attack_only: tau=0.026
+18:19:34 baseline fault_only: tau=0.477
+18:19:35 saved results

@@ -1,0 +1,237 @@
+{
+ "E3_magnitude": {
+  "fault": {
+   "0.25": {
+    "detect": 0.65,
+    "attr": 0.8461538461538461,
+    "joint": 0.55,
+    "review_rate": 0.3,
+    "delay_med": 6.5,
+    "cost": 5.04
+   },
+   "0.5": {
+    "detect": 0.8,
+    "attr": 0.875,
+    "joint": 0.7000000000000001,
+    "review_rate": 0.51,
+    "delay_med": 11.75,
+    "cost": 3.92
+   },
+   "1.0": {
+    "detect": 0.88,
+    "attr": 0.7159090909090909,
+    "joint": 0.63,
+    "review_rate": 0.55,
+    "delay_med": 8.5,
+    "cost": 3.63
+   },
+   "2.0": {
+    "detect": 0.99,
+    "attr": 0.7474747474747475,
+    "joint": 0.74,
+    "review_rate": 0.57,
+    "delay_med": 6.0,
+    "cost": 2.89
+   },
+   "4.0": {
+    "detect": 1.0,
+    "attr": 0.67,
+    "joint": 0.67,
+    "review_rate": 0.58,
+    "delay_med": 3.75,
+    "cost": 3.29
+   }
+  },
+  "environment": {
+   "0.25": {
+    "detect": 0.67,
+    "attr": 0.5970149253731343,
+    "joint": 0.39999999999999997,
+    "review_rate": 0.19,
+    "delay_med": 16.5,
+    "cost": 3.38
+   },
+   "0.5": {
+    "detect": 0.85,
+    "attr": 0.8588235294117647,
+    "joint": 0.73,
+    "review_rate": 0.24,
+    "delay_med": 13.666666666666666,
+    "cost": 2.32
+   },
+   "1.0": {
+    "detect": 0.94,
+    "attr": 0.7872340425531915,
+    "joint": 0.74,
+    "review_rate": 0.44,
+    "delay_med": 9.25,
+    "cost": 2.3
+   },
+   "2.0": {
+    "detect": 1.0,
+    "attr": 0.78,
+    "joint": 0.78,
+    "review_rate": 0.46,
+    "delay_med": 6.833333333333333,
+    "cost": 2.14
+   },
+   "4.0": {
+    "detect": 0.99,
+    "attr": 0.6363636363636364,
+    "joint": 0.63,
+    "review_rate": 0.61,
+    "delay_med": 4.666666666666667,
+    "cost": 2.91
+   }
+  },
+  "attack": {
+   "0.25": {
+    "detect": 0.96,
+    "attr": 0.17708333333333334,
+    "joint": 0.17,
+    "review_rate": 0.72,
+    "delay_med": 2.3333333333333335,
+    "cost": 12.96
+   },
+   "0.5": {
+    "detect": 0.95,
+    "attr": 0.3263157894736842,
+    "joint": 0.31,
+    "review_rate": 0.64,
+    "delay_med": 2.1666666666666665,
+    "cost": 11.78
+   },
+   "1.0": {
+    "detect": 0.99,
+    "attr": 0.40404040404040403,
+    "joint": 0.39999999999999997,
+    "review_rate": 0.6,
+    "delay_med": 1.8333333333333333,
+    "cost": 8.34
+   },
+   "2.0": {
+    "detect": 0.99,
+    "attr": 0.5454545454545454,
+    "joint": 0.5399999999999999,
+    "review_rate": 0.49,
+    "delay_med": 1.6666666666666667,
+    "cost": 6.46
+   },
+   "4.0": {
+    "detect": 1.0,
+    "attr": 0.55,
+    "joint": 0.55,
+    "review_rate": 0.49,
+    "delay_med": 1.6666666666666667,
+    "cost": 5.4
+   }
+  }
+ },
+ "E5_stress": {
+  "massbal": {
+   "chance_detect": 0.08020473032640318,
+   "proposed": {
+    "detect": 1.0,
+    "attr": 0.68,
+    "delay_med": 1.3333333333333333
+   },
+   "no_replay": {
+    "detect": 1.0,
+    "attr": 0.8,
+    "delay_med": 1.3333333333333333
+   }
+  },
+  "replay": {
+   "chance_detect": 0.08376522163341082,
+   "proposed": {
+    "detect": 1.0,
+    "attr": 0.38,
+    "delay_med": 2.25
+   },
+   "no_replay": {
+    "detect": 1.0,
+    "attr": 0.53,
+    "delay_med": 1.8333333333333333
+   }
+  },
+  "full": {
+   "chance_detect": 0.08484942707062137,
+   "proposed": {
+    "detect": 0.45,
+    "attr": 0.022222222222222223,
+    "delay_med": 3.6666666666666665
+   },
+   "no_replay": {
+    "detect": 0.62,
+    "attr": 0.016129032258064516,
+    "delay_med": 1.75
+   }
+  }
+ },
+ "E4_transfer": {
+  "A_no_adaptation": {
+   "macro_f1": 0.15002622845635782,
+   "accuracy": 0.1707303146234226,
+   "ece": 0.8167988858438564,
+   "fa_per_day": 0.5455440918332555,
+   "detect_attack": 1.0,
+   "attr_attack": 1.0,
+   "detect_fault": 1.0,
+   "attr_fault": 0.0,
+   "detect_env": 1.0,
+   "attr_env": 0.0,
+   "cost_equal_argmax": 5.5,
+   "cost_equal_bayes_review": 5.5,
+   "cost_deploy_bayes_review": 6.0200000000000005,
+   "tau": 0.5007697264592399
+  },
+  "B_twin_reidentified": {
+   "macro_f1": 0.8332005807465125,
+   "accuracy": 0.9146348426882887,
+   "ece": 0.06921784054954189,
+   "fa_per_day": 0.036369606122217034,
+   "detect_attack": 0.9857142857142858,
+   "attr_attack": 0.4492753623188406,
+   "detect_fault": 0.9411764705882353,
+   "attr_fault": 0.765625,
+   "detect_env": 0.9705882352941176,
+   "attr_env": 0.7424242424242424,
+   "cost_equal_argmax": 8.47620016091543,
+   "cost_equal_bayes_review": 3.0345208296084394,
+   "cost_deploy_bayes_review": 0.85870659753263,
+   "tau": 0.5007697264592399
+  },
+  "C_twin_and_threshold": {
+   "macro_f1": 0.8332005807465125,
+   "accuracy": 0.9146348426882887,
+   "ece": 0.06921784054954189,
+   "fa_per_day": 0.027277204591662777,
+   "detect_attack": 0.9857142857142858,
+   "attr_attack": 0.463768115942029,
+   "detect_fault": 0.9264705882352942,
+   "attr_fault": 0.746031746031746,
+   "detect_env": 0.9705882352941176,
+   "attr_env": 0.8333333333333334,
+   "cost_equal_argmax": 8.294133291614518,
+   "cost_equal_bayes_review": 3.031655640979796,
+   "cost_deploy_bayes_review": 0.824528696585017,
+   "tau": 0.5499692679934928
+  },
+  "D_retrained_oracle": {
+   "macro_f1": 0.7915992542849074,
+   "accuracy": 0.8956774967167247,
+   "ece": 0.043516466502839274,
+   "fa_per_day": 0.02364024397944107,
+   "detect_attack": 0.9857142857142858,
+   "attr_attack": 0.43478260869565216,
+   "detect_fault": 0.8823529411764706,
+   "attr_fault": 0.7166666666666667,
+   "detect_env": 1.0,
+   "attr_env": 0.7941176470588235,
+   "cost_equal_argmax": 8.701837117825853,
+   "cost_equal_bayes_review": 3.251846057571965,
+   "cost_deploy_bayes_review": 0.7172628285356696,
+   "tau": 0.4993894194846452
+  }
+ }
+}

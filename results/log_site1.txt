@@ -1,0 +1,31 @@
+13:16:39 data generated
+13:16:49 twins fitted
+13:18:12 features built (53600, 494)
+13:19:03 proposed: macroF1(manifest)=0.818 tau=0.501 [51s]
+13:19:38 arr_only: macroF1(manifest)=0.816 tau=0.530 [35s]
+13:20:11 dd_only: macroF1(manifest)=0.772 tau=0.648 [33s]
+13:20:32 raw_only: macroF1(manifest)=0.592 tau=0.769 [21s]
+13:21:09 no_cov: macroF1(manifest)=0.797 tau=0.537 [37s]
+13:21:54 no_topo: macroF1(manifest)=0.814 tau=0.493 [46s]
+13:22:41 no_replay: macroF1(manifest)=0.804 tau=0.453 [47s]
+13:23:25 no_inst: macroF1(manifest)=0.798 tau=0.524 [44s]
+13:23:39 baseline generic: tau=0.707
+13:23:39 baseline generic_esc: tau=0.707
+13:23:50 baseline attack_only: tau=0.025
+13:24:01 baseline fault_only: tau=0.578
+13:24:02 saved results
+13:24:02 E3 magnitude sweep
+13:24:28    fault {'0.25': 0.65, '0.5': 0.8, '1.0': 0.88, '2.0': 0.99, '4.0': 1.0}
+13:24:54    environment {'0.25': 0.67, '0.5': 0.85, '1.0': 0.94, '2.0': 1.0, '4.0': 0.99}
+13:25:19    attack {'0.25': 0.96, '0.5': 0.95, '1.0': 0.99, '2.0': 0.99, '4.0': 1.0}
+13:25:19 E5 stress tests
+13:25:30    massbal {'chance_detect': 0.08020473032640318, 'proposed': {'detect': 1.0, 'attr': 0.68, 'delay_med': 1.3333333333333333}, 'no_replay': {'detect': 1.0, 'attr': 0.8, 'delay_med': 1.3333333333333333}}
+13:25:40    replay {'chance_detect': 0.08376522163341082, 'proposed': {'detect': 1.0, 'attr': 0.38, 'delay_med': 2.25}, 'no_replay': {'detect': 1.0, 'attr': 0.53, 'delay_med': 1.8333333333333333}}
+13:25:51    full {'chance_detect': 0.08484942707062137, 'proposed': {'detect': 0.45, 'attr': 0.022222222222222223, 'delay_med': 3.6666666666666665}, 'no_replay': {'detect': 0.62, 'attr': 0.016129032258064516, 'delay_med': 1.75}}
+13:25:51 E4 site transfer
+13:26:06    A_no_adaptation {'macro_f1': 0.15, 'accuracy': 0.171, 'ece': 0.817, 'fa_per_day': 0.546, 'detect_attack': 1.0, 'attr_attack': 1.0, 'detect_fault': 1.0, 'attr_fault': 0.0, 'detect_env': 1.0, 'attr_env': 0.0, 'cost_equal_argmax': 5.5, 'cost_equal_bayes_review': 5.5, 'cost_deploy_bayes_review': 6.02, 'tau': 0.501}
+13:26:20    B_twin_reidentified {'macro_f1': 0.833, 'accuracy': 0.915, 'ece': 0.069, 'fa_per_day': 0.036, 'detect_attack': 0.986, 'attr_attack': 0.449, 'detect_fault': 0.941, 'attr_fault': 0.766, 'detect_env': 0.971, 'attr_env': 0.742, 'cost_equal_argmax': 8.476, 'cost_equal_bayes_review': 3.035, 'cost_deploy_bayes_review': 0.859, 'tau': 0.501}
+13:26:38    C_twin_and_threshold {'macro_f1': 0.833, 'accuracy': 0.915, 'ece': 0.069, 'fa_per_day': 0.027, 'detect_attack': 0.986, 'attr_attack': 0.464, 'detect_fault': 0.926, 'attr_fault': 0.746, 'detect_env': 0.971, 'attr_env': 0.833, 'cost_equal_argmax': 8.294, 'cost_equal_bayes_review': 3.032, 'cost_deploy_bayes_review': 0.825, 'tau': 0.55}
+13:27:41    D_retrained_oracle {'macro_f1': 0.792, 'accuracy': 0.896, 'ece': 0.044, 'fa_per_day': 0.024, 'detect_attack': 0.986, 'attr_attack': 0.435, 'detect_fault': 0.882, 'attr_fault': 0.717, 'detect_env': 1.0, 'attr_env': 0.794, 'cost_equal_argmax': 8.702, 'cost_equal_bayes_review': 3.252, 'cost_deploy_bayes_review': 0.717, 'tau': 0.499}
+13:27:41 E7 example episodes
+13:27:41 aux done
