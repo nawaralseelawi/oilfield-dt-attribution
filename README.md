@@ -5,6 +5,15 @@ its instruments on an oil-and-gas wellpad, decide whether it is **hardware degra
 **weather-driven degradation (environment)** or **malicious manipulation (attack)**, with calibrated
 confidence, and turn that into a cost-aware operator decision.
 
+**Paper:** Mustafa S. Aljumaily, Nawar S. Alseelawi, Hayder Kareem Abed,
+"Attributing Sensor Deviations to Degradation, Weather, or Attack in Oilfield
+Digital Twins: A Simulation Study of Probabilistic Attribution and Cost-Based
+Decisions," arXiv:2609.31973, 2026.
+https://arxiv.org/abs/2609.31973
+
+If you use this code, please cite the paper above.
+
+
 > **Everything here runs on a simulator whose assumptions are the paper's assumptions.**
 > No field data were used. Results show the method works *under those generative assumptions*;
 > they do not show it works on a real wellpad. `adapter.py` exists so that step can be taken.
